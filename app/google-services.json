@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "274103261622",
+    "firebase_url": "https://chat-app-simple-aec71-default-rtdb.firebaseio.com",
     "project_id": "chat-app-simple-aec71",
     "storage_bucket": "chat-app-simple-aec71.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "274103261622-ai0b46bgbrumbtl0mv2gstcb313r1k3c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gsixacademy.android.chatappsimple",
+            "certificate_hash": "de925705c7bc40c2ed8578139c296956b05bf703"
+          }
+        },
         {
           "client_id": "274103261622-e0got9lbikqupijlck7ktkgd4hrihqus.apps.googleusercontent.com",
           "client_type": 1,

@@ -45,8 +45,8 @@ import java.util.concurrent.TimeUnit
 
 class MainActivity : AppCompatActivity(), GoogleApiClient.OnConnectionFailedListener  {
     override fun onConnectionFailed(connectionResult: ConnectionResult) {
-        Log.d(TAG, "onConnectionFailed:$connectionResult");
-        Toast.makeText(this, "Google Play Services error.", Toast.LENGTH_SHORT).show();
+        Log.d(TAG, "onConnectionFailed:$connectionResult")
+        Toast.makeText(this, "Google Play Services error.", Toast.LENGTH_SHORT).show()
     }
 // Funkcija sto se povikuva bez da ima instanca vo klasata, odnosno ako ti treba pristap do klasata se deklarira kako pridruzen objekt vo taa klasa.
     companion object {
